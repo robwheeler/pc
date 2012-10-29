@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-    http://www.pythonchallenge.com/pc/def/map.html
+    http://www.pythonchallenge.com/pc/def/ocr.html
 """
 
 import string
@@ -1231,4 +1231,4 @@ $#_}*!(+([_&%{^&[([%]}*^{{([@+@]@*&@_!]_+([(#&!]]#$$#]@#{_]][_{@]{*))$({%}_![@$]
 -->
 """
 
-print "".join([x for x in text if x in string.letters])
+print 'http://www.pythonchallenge.com/pc/def/%s.html' % "".join([x for x in text if x in string.letters])
